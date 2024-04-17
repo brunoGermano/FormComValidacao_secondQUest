@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11 js</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info">
+            <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+
+        <div class="dadosUser">
+
+            <div class="all-field">
+                <input class="nome data" type="text" placeholder="Nome completo *" id="nome">
+                <p class="textoErro">campo obrigatório</p>
+            </div>
+
+            <div class="all-field">
+                <input class="email data" type="text" placeholder="Email *" id="email">
+                <p class="textoErro">campo obrigatório</p>
+            </div>
+
+            <div class="all-field">
+                <input class="telefone data" type="text" placeholder="Telefone *" id="telefone">
+                <p class="textoErro">campo obrigatório</p>
+            </div>
+
+            <div class="all-field">
+                <textarea class="mensagem data" type="text" placeholder="Mensagem *" id="mensagem" cols="30"
+                    rows="10"></textarea>
+                <p class="textoErro">campo obrigatório</p>
+            </div>
+
+            <div class="mensagemErroFinal">
+                <p class="texto">*campos obrigatórios</p>
+            </div>
+
+            <button class="btnSend">Enviar</button>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+
+</html>
